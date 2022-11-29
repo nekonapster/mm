@@ -1,0 +1,49 @@
+*{
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+}
+
+body{
+    background-color: tan;
+
+}
+
+.cuadrado1, .cuadrado2, .cuadrado3, .cuadrado4{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(40, 146, 146);
+}
+
+.titulo{
+    color:rgb(40, 146, 146);
+    margin-bottom: -8px;
+}
+
+.big__container{
+    display: grid;
+    grid-template-columns: repeat(3  1fr);
+
+    
+    border: 1px solid rgb(40, 146, 146);
+    border-radius: 25px;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    
+    padding-top: 10px;
+}
+
+
+.container__pistas{
+    display: grid;
+    grid-template-columns: repeat(4  1fr);
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 3px;
+    
+}
