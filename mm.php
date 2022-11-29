@@ -490,6 +490,8 @@
         </div>
     </div>
 
+  <button class="btn__restart">restart game</button>
+
 </body>
 
 </html>
